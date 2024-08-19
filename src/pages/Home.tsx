@@ -1,8 +1,10 @@
-export default function Home() {
+import Header from '../components/header/Header.tsx';
 
+export default function Home() {
   return (
-    <>
-      <p>App Pokémon</p>
-    </>
+    <div>
+      <Header />
+      <p>Page Home</p>
+    </div>
   )
 }
